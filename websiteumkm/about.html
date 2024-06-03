@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/flower-line.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>flower website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-flower-line nav__logo-icon"></i> BucketFlower
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="index.html" class="nav__link ">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="about.html" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="products.html" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="contactus.html" class="nav__link">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__buttons">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                     <!--Login-->
+                    <a href="login.html"><i class="ri-user-line login-button" id="login-button"></i></a>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                    
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== LOGIN ====================-->
+        <div class="login grid" id="login-content">
+            <form action="" class="login__form grid">
+                <h3 class="login__title">Log In</h3>
+
+                <div class="login__group grid">
+                    <div>
+                        <label for="login-email" class="login__label">Email</label>
+                        <input type="email" placeholder="Write your email" id="login-email" class="login__input">
+                    </div>
+
+                    <div>
+                        <label for="login-pass" class="login__label">Password</label>
+                        <input type="password" placeholder="Enter your password" id="login-pass" class="login__input">
+                    </div>
+                </div>
+
+                <div>
+                    <span class="login__signup">
+                        You do not have an account? <a href="#">Sign up</a>
+                    </span>
+
+                    <a href="#" class="login__forgot">
+                        You forgot your password
+                    </a>
+
+                    <button type="submit" class="login__button button">Log In</button>
+                </div>
+            </form>
+
+            <i class="ri-close-line login__close" id="login-close"></i>
+        </div>
+
+        <main class="main">
+            <!--==================== ABOUT ====================-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="assets/img/about.jpg" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Who we really are & <br> why choose us
+                        </h2>
+
+                        <p class="about__description">
+                            We have over 9000 followers on instagram and our customers 
+                            trust our bucket flower / graduation BucketFlower process and delivery service every time
+                        </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We accept custom buckets
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We always Provide Bucket Ready
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                100% money back guaranteed.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                We give you guides to protect and care for your bucket.
+                            </p>
+                        </div>
+
+                        <a href="products.html" class="button--link button--flex">
+                            Shop Now <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== STEPS ====================-->
+            <section class="steps section container">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                        Steps to start your <br> bucket off right
+                    </h2>
+
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title">Choose bucket</h3>
+                            <p class="steps__card-description">
+                                We have several variation bucket you can choose from.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title">Place an order</h3>
+                            <p class="steps__card-description">
+                                You can order via Instagram DM / Whatsapp
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title">Get bucket on store</h3>
+                            <p class="steps__card-description">
+                               Our address Ruko Cluster Melati Residance Blok A.15 Tiban.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="ri-flower-line nav__logo-icon"></i> BucketFlower
+                    </a>
+
+                    <h3 class="footer__title">
+                        Subscribe to our instagram <br> to stay update
+                    </h3>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Address</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">📍Ruko Cluster Melati Residance </li>
+                        <li class="footer__information">Blok A.15 Tiban</li>
+                        <li class="footer__information"></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contact Us</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">0853-5644-1118</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://wa.me/6285356441118/" class="footer__social-link">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                            <a href="https://www.instagram.com/bucketflower_batam?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        We accept all payments
+                    </h3>
+
+                    <div class="footer__cards">
+                        <img src="assets/img/card1.png" alt="" class="footer__card">
+                        <img src="assets/img/card2.png" alt="" class="footer__card">
+                        <img src="assets/img/card5.png" alt="" class="footer__card">
+                        <img src="assets/img/card4.png" alt="" class="footer__card">
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Nealson. All rigths reserved</p>
+        </footer>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+         <!--=============== SWIPER JS ===============-->
+         <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
